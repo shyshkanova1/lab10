@@ -8,7 +8,6 @@ var name = prompt("Please, enter your name:");
 }
 function start() {
     let resultElement = document.getElementById('result');
-    resultElement.innerText = '';
     let slots = ['slot1', 'slot2', 'slot3'];
     for (let slot of slots) {
         document.getElementById(slot).style.backgroundImage = `url(${random()})`;
